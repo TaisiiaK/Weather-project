@@ -1,0 +1,133 @@
+.card {
+  margin-top: 40px;
+  border-color: #757a79;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.weather-icon {
+  margin-bottom: 50px;
+}
+.currentDegree {
+  font-size: 80px;
+  color: #157347;
+  left: 80px;
+  font-family: "Google Sans";
+}
+.units {
+  font-size: 22px !important;
+  font-family: "Google Sans";
+  position: absolute;
+  top: 70px;
+}
+.humidity {
+  margin: 10px 10px 0 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  position: absolute;
+  top: 145px;
+  padding-left: 400px;
+  margin-top: 20px;
+}
+.humidityAndWind {
+  position: absolute;
+  top: -60px;
+  color: #757a79;
+}
+.wind {
+  margin: 0px 10px 0 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  position: absolute;
+  top: 135px;
+  padding-left: 400px;
+}
+.description {
+  margin: 0px 10px 0 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  position: absolute;
+  top: 195px;
+  padding-left: 400px;
+}
+.form-control {
+  background: #e8f1fc;
+  width: 200px;
+  margin-right: 10px;
+  height: 39px;
+  border-color: #757a79;
+}
+.blokSearch {
+  margin-top: 50px;
+  padding-right: 30px;
+}
+.searchCity {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-success {
+  margin-left: 10px;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 80px 30px;
+  border-color: #757a79;
+}
+.currentCity {
+  text-align: left;
+  margin: 10px 10px 0 0;
+  font-size: 36px;
+  font-family: "Google Sans";
+  font-weight: bold;
+}
+.currentTime {
+  text-align: left;
+  margin: 10px 10px 0 0;
+  font-size: 36px;
+  font-family: "Google Sans";
+  font-weight: bold;
+}
+.currentDay {
+  text-align: left;
+  margin: 0 10px 0 0;
+  font-size: 36px;
+  font-family: "Google Sans";
+}
+.currentDate {
+  text-align: left;
+  margin: 0 10px 0 0;
+  font-size: 36px;
+  font-family: "Google Sans";
+}
+.col {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.date {
+  margin-top: 15px;
+  color: #0b5ed7;
+  text-align: center;
+  font-size: 18px !important;
+}
+.weather-forecast-temperature-max {
+  font-weight: normal;
+  font-size: 18px;
+}
+.weather-forecast-temperature-min {
+  font-weight: lighter;
+  font-size: 17px;
+}
+.border {
+  text-align: center;
+  border: 1px solid #757a79 !important;
+  border-radius: 20px;
+}
+.day {
+  font-size: 68px;
+  color: #157347;
+  font-family: "Poppins";
+}

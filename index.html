@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="weather-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="search-container">
+            <div class="humidityAndWind">
+              <span class="humidity" id="actualHumidity"></span>
+              <span class="wind" id="actualWind"></span>
+              <span class="description" id="actualDescription"></span>
+            </div>
+            <div>
+              <img
+                src="http://openweathermap.org/img/wn/10d@2x.png"
+                alt="clear"
+                class="weather-icon"
+                id="icon"
+              />
+              <span class="currentDegree">
+                <span class="numberdegree" id="actualNumberdegree"></span>
+                <span class="units">°С</span>
+              </span>
+            </div>
+            <div class="blokSearch">
+              <div class="searchCity">
+                <input
+                  type="city"
+                  class="form-control shadow-sm"
+                  id="inputCity"
+                  placeholder="Type a city"
+                />
+                <button
+                  id="searchButton"
+                  type="button"
+                  class="btn btn-primary w-100"
+                >
+                  Search
+                </button>
+                <button
+                  id="currentButton"
+                  type="button"
+                  class="btn btn-success w-100"
+                >
+                  Current
+                </button>
+              </div>
+
+              <div class="currentTime">
+                <span class="currentCity" id="actualCity"></span>
+                <span id="actualTime"></span>
+              </div>
+
+              <div class="currentDate">
+                <span class="currentDay" id="actualDay"></span>
+                <span id="actualDate"></span>
+              </div>
+            </div>
+          </div>
+              <div class="weather-forecast" id="forecast"> </div>
+            </div>
+          </div>
+          <a href="https://github.com/TaisiiaK/Weather-App.git">Open-source code</a
+            ><span> by Taisiia Kompaniets</span>
+          </div>
+        </div>
+    <script src="js-weather.js"></script>
+  </body>
+</html>
